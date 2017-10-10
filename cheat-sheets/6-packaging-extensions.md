@@ -11,7 +11,7 @@ mkdir Icons
 
 **Step Four**: Add each image to the Icons directory.
 
-**Step Five**: Replace the previous build script in your package.json to account for builds with different icons with the scripts below. In the example below, the app name is electron-app, and the icon name is unicorn. You can change that to match your own app and icon name.
+**Step Five**: Add a build script to your package.json, beginning on line 9, to account for builds with different icons with the scripts below. In the example below, the app name is electron-app, and the icon name is unicorn. You can change that to match your own app and icon name.
 ```
 "build-darwin"  : "electron-packager . electron-app --platform=darwin --icon Icons/unicorn.icns --overwrite",
 "build-mas"     : "electron-packager . electron-app --platform=mas --icon Icons/unicorn.icns --overwrite",
