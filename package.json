@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/universeworkshops/electron-weather.git"
+    "url": "git+https://github.com/rishiraj-rana/electron-weather.git"
   },
   "bugs": {
-    "url": "https://github.com/universeworkshops/electron-weather/issues"
+    "url": "https://github.com/rishiraj-rana/electron-weather/issues"
   },
-  "homepage": "https://github.com/universeworkshops/electron-weather#readme",
+  "homepage": "https://github.com/rishiraj-rana/electron-weather#readme",
   "devDependencies": {
     "electron": "^1.6.8"
-    
+
   }
 }
