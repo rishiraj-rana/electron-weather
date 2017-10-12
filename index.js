@@ -90,7 +90,7 @@ const updateWeather = () => {
 
     ipcRenderer.send('weather-updated', weather)
     updateView(weather)
-    sendNotification(weather)
+    
     previousWeather = weather
   })
 }

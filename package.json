@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/rishiraj-rana/electron-weather#readme",
   "devDependencies": {
-    "electron": "^1.6.8"
+    "electron": "^1.6.8",
+    "menubar": "^5.2.3"
   }
 }

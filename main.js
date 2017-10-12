@@ -8,7 +8,12 @@ let window = undefined
 
 process.env.GOOGLE_API_KEY = "AIzaSyAjQz5Scgjt8A-n_PKQWjNiYg-ht2gUJts"
 
-
+var menubar = require('menubar')
+var mb = menubar()
+mb.on('ready', function ready () {
+  console.log('app is ready')
+})
+/*
 app.on('ready', () => {
   createTray()
   createWindow()
@@ -52,8 +57,8 @@ const createWindow = () => {
     height: 450,
     show: false,
     frame: false,
-    fullscreenable: false,
-    resizable: false,
+    fullscreenable: true,
+    resizable: true,
     transparent: true,
     webPreferences: {
       // Prevents renderer process code from not running when window is
@@ -85,3 +90,4 @@ const showWindow = () => {
   window.show()
   window.focus()
 }
+*/
